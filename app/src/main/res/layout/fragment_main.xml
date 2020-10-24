@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/main_fragment"
+    android:background="@android:color/white"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:id="@+id/button_task1"
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="@string/task1" />
+    <Button
+        android:id="@+id/button_task2"
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="@string/task2" />
+
+    <Button
+        android:id="@+id/button_task3"
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="@string/task3" />
+
+
+</LinearLayout>

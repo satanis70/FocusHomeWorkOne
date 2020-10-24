@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">FocusHomeWorkOne</string>
+    <string name="task1">Навигация фрагменты</string>
+    <string name="task2">Бэкграунд подсчет</string>
+    <string name="task3">Получаем телефонную книгу через content provider</string>
+</resources>
