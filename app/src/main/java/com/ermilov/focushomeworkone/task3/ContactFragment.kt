@@ -67,7 +67,6 @@ class ContactFragment: Fragment(), LoaderManager.LoaderCallbacks<Cursor>,
 
     }
 
-
     override fun onCreateLoader(id: Int, args: Bundle?): Loader<Cursor> {
         TODO("Not yet implemented")
     }
@@ -79,11 +78,7 @@ class ContactFragment: Fragment(), LoaderManager.LoaderCallbacks<Cursor>,
     override fun onLoaderReset(loader: Loader<Cursor>) {
         TODO("Not yet implemented")
     }
-
-
-
-
-
+    
     override fun onItemClick(p0: AdapterView<*>?, p1: View?, p2: Int, p3: Long) {
         TODO("Not yet implemented")
     }
